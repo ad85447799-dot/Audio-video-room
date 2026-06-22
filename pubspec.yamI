@@ -1,0 +1,16 @@
+name: live_audio_room
+description: Agora live audio room app
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  agora_rtc_engine: ^6.3.0
+  permission_handler: ^11.3.1
+
+flutter:
+  uses-material-design: true
