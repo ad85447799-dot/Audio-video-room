@@ -2,7 +2,7 @@ workflows:
   android-release:
     name: Android APK Build
     max_build_duration: 120
-working_directory: .
+    working_directory: .
     environment:
       flutter: stable
       xcode: latest
